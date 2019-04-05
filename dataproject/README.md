@@ -22,7 +22,7 @@ This data analysis project presents data on total external export from 1997 to 2
   
   Vessels, Aircraft etc. 
 
-Our data set is imported from Statistics Denmark (Danmarks Statistik) and the data set is originally called UHV1. The data set contains both seasonally and non seasonally adjusted numbers and we choose to use only the non seasonally adjusted numbers. 
+Our data set is imported from Statistics Denmark (Danmarks Statistik) and the data set is originally called UHV1. The data set contains both seasonally and non seasonally adjusted numbers and we choose to use only the non seasonally adjusted numbers. The data is in nominal prices which we want to change into real prices. Therefor we import another data set from Statistics Denmark the data set is originally called "PRIS112" and contains the danish consumer price index which can be used to transform the nominal values into real values by merging the two data sets and dividing the inflation rate on the rest of the data. 
 
 To be able to illustrate the change in the variables better we choose to calculate the percentage growth rate, which gives us a new data set. This data set we do a basic statistics analysis on to get an overview of which categories have evolved better over the years. In the end we present the percentage change variables in an interactive plot, where you are able to adjust the time span and choose between the categories from a drop down menu. 
 
